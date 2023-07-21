@@ -1,0 +1,14 @@
+Given an array of N
+ numbers, count the number of ordered pairs of indices i,j
+ such that i≠j
+ , 1≤i<j≤N
+ and a[i]+a[j]==min(a)+max(a)
+ i.e. the sum of those two numbers equals the sum of both the minimum and maximum numbers in the array.
+
+Input
+The first line of input contains one integer N
+ such that 1≤N≤5000
+ the number of elements in the array The second line contains N
+ space-separated integers each 1≤a[i]≤109
+Output
+print the answer in one line, the number of ordered pairs of indices such that the sum of their two values equals the sum of the maximum + minimum numbers in the given array.
